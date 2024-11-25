@@ -1,0 +1,3 @@
+Day 1 [ 25th November 2024 ]
+- Started Python by Angela Yu
+- Basic Python Codes, Variables, tring Concatination, len() etc
