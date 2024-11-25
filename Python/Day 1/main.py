@@ -28,12 +28,17 @@ print("String Concatenation is done with the + sign")
 print("New lines can be created with a \ and the letter n")
 
 # 8. Input
-#input("What is your Name?")
+# input("What is your Name?")
 
-# print("Hello " + input("What is your Name? ") + "!")
+# print("\nHello " + input("What is your Name? ") + "!")
 
 # 9. Python Variables
-name = input("What is your Name? ")
+name = input("\nWhat is your Name? ")
 print("Hello " + name)
 print("Length of " + name + " is: " + str(len(name)))
 
+# 11. Project - Band Name Generator
+print("\nWelcome to the Band Name Generator")
+city = input("Which city did you grow up in?")
+pet = input("What is your Pet Name?")
+print("Your Bane Name is: " + city + " " + pet)
