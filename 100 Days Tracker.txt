@@ -1,3 +1,8 @@
-Day 1 [ 25th November 2024 ]
+Day 1 [ 26th November 2024 ]
 - Started Python by Angela Yu
 - Basic Python Codes, Variables, tring Concatination, len() etc
+
+Day 2 [ 27th November 2024 ]
+- Data Types
+- Type Conversions
+- f strings
