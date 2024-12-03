@@ -50,3 +50,23 @@ else:
     print("overweight")
 
 # Chapter 25. Multiple If Statements in Succession
+
+# Chapter 27. Logical Operators
+a = 12
+
+print("\n")
+print(a > 15)
+print(a < 15)
+print(a < 15 and a > 10)
+print(a > 15 and a < 10)
+print(a > 15 or a > 10)
+
+a = 5
+b = 7
+print("\n")
+if a >= b and a != b:
+    print("A")
+elif not a >= b and a != b:
+    print("B")
+else:
+    print("C")
