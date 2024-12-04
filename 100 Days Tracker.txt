@@ -6,3 +6,10 @@ Day 2 [ 27th November 2024 ]
 - Data Types
 - Type Conversions
 - f strings
+
+Day 3 [ 3rd December 2024 ]
+- 
+
+Day 4 [ 4th December 2024 ]
+- Randomization
+- List
