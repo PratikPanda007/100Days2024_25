@@ -13,3 +13,7 @@ Day 3 [ 3rd December 2024 ]
 Day 4 [ 4th December 2024 ]
 - Randomization
 - List
+
+Day 5 [12th Jan 2024 ]
+- Default Parameters, spread and rest operators
+- Array Methods - map, find, filter, some, every, includes, indexOf, findIndex
