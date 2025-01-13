@@ -14,6 +14,9 @@ Day 4 [ 4th December 2024 ]
 - Randomization
 - List
 
-Day 5 [12th Jan 2024 ]
+Day 5 [ React || 12th Jan 2025 ]
 - Default Parameters, spread and rest operators
 - Array Methods - map, find, filter, some, every, includes, indexOf, findIndex
+
+Day 6 [ React || 13th Jan 2025 ]
+- API Consumption

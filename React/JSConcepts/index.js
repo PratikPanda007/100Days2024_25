@@ -156,3 +156,31 @@ let getIndexOfRussia = personsArray.findIndex((singlePerson, index) => {
 });
 
 console.log(getIndexOfRussia);
+
+
+// =============================================== API Consumption
+console.log("=================================================== API Consumption");
+let listOfProcucts = document.querySelector(".list-of-procucts");
+
+async function fetchListOfProducts(){
+    try{
+        const apiResp = await fetch("https://dummyjson.com/products", {
+            method: "GET"
+        })
+        //console.log(apiResp);
+        const result = await apiResp.json();
+        console.log(result);
+
+        if(result?.products?.length > 0) renderProducts(result?.products)
+    }catch(e){
+        console.log(e);
+    }
+}
+
+fetchListOfProducts();
+
+function renderProducts(products){
+    listOfProcucts.innerHTML = products.map((singleProduct, index) => {
+        return `<p>${singleProduct.title} - $ ${singleProduct.price}</p>`;
+    }).join(' ');;
+}
