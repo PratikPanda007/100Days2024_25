@@ -20,3 +20,7 @@ Day 5 [ React || 12th Jan 2025 ]
 
 Day 6 [ React || 13th Jan 2025 ]
 - API Consumption
+
+Day 7 [ React || 14th Jan 2024 ]
+- Created basic app with npx
+- npx create-react-app new-npx-app
